@@ -228,9 +228,6 @@ class Ui(QtWidgets.QMainWindow):
         self.pushButton_16.clicked.connect(lambda: self.mythread.start(makecoil,self.spinBox_5.value(),self.spinBox_6.value(),self.spinBox_4.value()))
         self.pushButton_17.clicked.connect(self.mythread.terminate)
 
-    def pB1clk(self):
-        pass
-
 
 def main():
     global form
